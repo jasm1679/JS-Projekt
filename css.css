@@ -59,6 +59,47 @@
     }
     /* Navigation slut*/
 
+    .grid-2 {
+        display: grid;
+        grid-template-columns: 100%;
+        margin-left: -8px;
+        margin-right: -8px;
+        background-color: white;
+        text-align: center;
+        padding: 50px;
+    }
+
+    .grid-3 {
+        display: grid;
+        grid-template-columns: auto 50px auto 50px auto;
+        background-color: white;
+        scale: 80%;
+    }
+
+    .grid-4 {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        background-color: white;
+    }
+
+
+    .grid-5 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-left: -8px;
+        margin-right: -8px;
+        background-color: #f7f6f1;
+        text-align: left;
+        padding-left: 30px;
+    }
+
+#nyhedsbrev {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 
 
 /* Andreas CSS */
