@@ -18,8 +18,14 @@
   // Funktion
     function doScroll() {
       let scrollPercent = scrollY / scrollArea;
-      bil.style.left = scrollPercent * innerWidth - 2200 + 'px';
+      let newPosition = scrollPercent * innerWidth - 2200;
+      if (newPosition > 1600) {
+        bil.style.left = 0 + 'px';
+      } else {
+        bil.style.left = scrollPercent * innerWidth - 2200 + 'px';
+      }
     }
+
 
 
 
