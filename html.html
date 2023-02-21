@@ -61,14 +61,14 @@
                 <h1 class="regular">
                     Limited Editions
                 </h1>    
-                <p class="regular">
+                <p>
                     Se alle
                 </p>
-                <h2 class="regular">
+                <p>
                     Limited Editions stammer fra Hornsleth's originale malerier og er kun 
                     <br>
                     produceret i et begrænset og nummeret antal. 
-                </h2>
+                </p>
             </div>
             <!-- Er ikke sikker på om nogle laver det her -->
             <!-- Er ikke sikker på om nogle laver det her -->
@@ -111,13 +111,21 @@
                     <p class="bold">
                         Antal
                     </p> 
-                    <img src="billeder/Antal.png" alt="Antal"></a>
-                    <img src="billeder/Køb.png" alt="Køb"></a>
+                    <div class="antallet">
+                        <button class="knap" type="button" onclick="minus()">-</button>
+                        <input id="antal" placeholder="1">
+                        <button class="knap" type="button" onclick="plus()">+</button>                        
+                    </div>
+
+                    <br><br><br>
+                    <button class="storknaphvid">TILFØJ TIL KURV</button>
+                    <br><br>
+                    <button class="storknapgrøn">KØB NU</button>   
                 </div>
             </div>
             <br><br><br><br>
             <div class="grid-5">
-                <div>
+                <div class="ned">
                     <h1 class="regular">
                         Originale malerier
                     </h1>
@@ -126,7 +134,7 @@
                         <br>
                         kom et skridt tættere på et ekstraordinært hjem
                     </p>
-                    <img src="billeder/Udvalg.png" alt="Udvalg"></a>
+                    <button class="grøn">UDVALG</button>
                 </div>
                 <img src="billeder/billede på væg.png" alt="Billede på væg"></a>
             </div>
@@ -137,8 +145,12 @@
                 <p>
                     Tilmeld dig Hornsleths nyhedsbrev og bliv en del af vores eksklusive klub.
                 </p>
-                <img id="nyhedsbrev" src="billeder/Nyhedsbrev.png" alt="Nyhedsbrev"></a>                
             </div>
+            <div class="move">
+                <input id="nyhedsbrev" placeholder=" Indsæt din e-mail">
+                <button class="grøn">TILMELD</button>                
+            </div>
+
         </main>
 
         <footer>
