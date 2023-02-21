@@ -22,8 +22,9 @@
         let value, inputObject;
       
         inputObject = document.getElementById("antal");
-        value=parseFloat(inputObject.value);
+        value=parseInt(inputObject.value);
         if (isNaN(value)) {
+          inputObject.value=1;
         } else {
           inputObject.value=value+1;
         }
@@ -33,8 +34,11 @@
         let value, inputObject;
       
         inputObject = document.getElementById("antal");
-        value=parseFloat(inputObject.value);
-        if (isNaN(value)) {
+        value=parseInt(inputObject.value);
+        if (isNaN(value)){
+          inputObject.value=1;
+        } else if (value < 2) {
+          inputObject.value=1;
         } else {
           inputObject.value=value-1;
         }
