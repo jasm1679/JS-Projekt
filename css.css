@@ -1,0 +1,85 @@
+/* CSS til opsætning af hjemmesiden */
+    #blank {
+        height: 50px;
+        width: auto;
+        margin-left: -8px;
+        margin-right: -8px;
+        background-color: white;
+        border: 1px solid lightgray;
+    }
+
+    #iconer {
+        float: right;
+        padding-right: 10%;
+        padding-top: 5px;
+        scale: 80%;
+    }
+
+    #logo {
+        scale: 70%;
+        border: 1px solid black;
+    }
+
+    #søg {
+        scale: 80%;
+        padding-top: 15px;
+        float: left;
+    }
+
+    /* Navigation start*/
+    #navigation {
+        padding: 20px;
+        text-align: center; 
+    }
+
+    .grid-1 {
+        display: grid;
+        grid-template-columns:20% 60% 20%;
+        margin-left: -8px;
+        margin-right: -8px;
+        background-color: white;
+        border: 1px solid lightgray;
+        border-top: 0px;
+    }
+
+    a{
+        color: black;
+        text-decoration: none;
+    }
+
+    .navigation ul{
+        display: flex;
+        list-style: none;
+        flex-wrap: nowrap;
+    }
+
+    .navigation li{
+        flex-basis: 30%;
+        margin-left: 10px;
+    }
+    /* Navigation slut*/
+
+
+
+/* Andreas CSS */
+
+/* Benjamins CSS */
+
+/* Jasmins CSS */
+    /*Bjælke*/
+        .kasse {
+            height: 50px;
+            width: auto;
+            margin: -8px;
+            background-color: black;
+        }
+
+        #out {
+            text-align: center;
+            padding-top: 15px;
+            color: white;
+        }
+
+/* Julies CSS */
+
+/* Luanas CSS */
