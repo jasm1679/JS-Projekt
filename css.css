@@ -173,6 +173,32 @@
     font-size: 30px;
 }
 
+.grid-6 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: #f7f6f1;
+    text-align: left;
+    padding-left: 30px;
+    height: 400px;
+}
+
+.grid-7 {
+    display: grid;
+    grid-template-columns: 50% auto;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    background-color: #f7f6f1;
+    text-align: left;
+    padding-left: 30px;
+    height: 100px;  
+}
+
+.icon {
+    float: left;
+}
 
 
 
