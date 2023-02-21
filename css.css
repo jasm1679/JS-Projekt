@@ -214,7 +214,10 @@
 }
 
 footer {
-background-color: #f7f6f1;}
+    background-color: #f7f6f1;
+    margin: -8px;
+}
+
 
 /* Andreas CSS */
 
