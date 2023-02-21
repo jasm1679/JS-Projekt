@@ -1,3 +1,28 @@
+// Bil
+    const scrollArea = 1300 - innerHeight;
+    let bil;
+    const random = Math.floor(Math.random()*2);
+
+  // if else
+    if (random == 0){
+      document.getElementById("bil").style.visibility = "visible";
+      bil = document.getElementById("bil");
+    } else {
+      document.getElementById("motorcykel").style.visibility = "visible";
+      bil = document.getElementById("motorcykel");
+    }
+
+  // Event
+    addEventListener("scroll", doScroll);
+
+  // Funktion
+    function doScroll() {
+      let scrollPercent = scrollY / scrollArea;
+      bil.style.left = scrollPercent * innerWidth - 2200 + 'px';
+    }
+
+
+
 // Bjælke
         const mellemRum = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
 

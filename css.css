@@ -216,13 +216,34 @@
 footer {
 background-color: #f7f6f1;}
 
-
-
 /* Andreas CSS */
 
 /* Benjamins CSS */
 
 /* Jasmins CSS */
+    /*Bil*/   
+        .container {
+            height: 150px;
+            background-color: #f7f6f1;
+            margin: -8px;
+            margin-top: 30px;
+        }
+
+        .brum {
+            position: absolute;
+            left: -1300px;
+            visibility: hidden;
+            z-index: 1;
+        }
+
+        #bil {
+            top: 1130px;
+        }
+
+        #motorcykel {
+            top: 1130px;
+        }
+
     /*Bjælke*/
         .kasse {
             height: 45px;
