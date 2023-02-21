@@ -12,12 +12,19 @@
 
 
 
+
+
+
+
+
+
+
     
 
 
 
 
-// Antal
+// Antal (Dette er ikke en del af mit tildelte stykke js, blot ekstra)
     function plus() {
         let value, inputObject;
       
