@@ -51,7 +51,7 @@
         grid-template-columns: 35% auto 15%;
         margin-left: -8px;
         margin-right: -8px;
-        background-color: blue;
+        background-color: rgb(255, 255, 255);
         border: 1px solid lightgray;
         border-top: 0px;
     }
@@ -59,7 +59,7 @@
     @media screen and (min-width: 1300px) {
         .grid-1 {
             height: 85px;
-            display: grid;
+            display: flex;
             grid-template-columns: 35% auto 10%;
             margin-left: -8px;
             margin-right: -8px;
