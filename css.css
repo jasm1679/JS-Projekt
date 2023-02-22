@@ -47,7 +47,7 @@
 
     .grid-1 {
         height: 85px;
-        display: grid;
+        display: flex;
         grid-template-columns: 35% auto 15%;
         margin-left: -8px;
         margin-right: -8px;
