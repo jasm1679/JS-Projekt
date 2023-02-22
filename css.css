@@ -299,4 +299,27 @@
 
 /* Julies CSS */
 
+.cart{
+    position: relative;
+    display: flex; 
+    flex-direction: row;
+    justify-content: right;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.cartAmount{
+    position: absolute;
+    top: -15px;
+    right: 0px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    padding: 3px; 
+    border-radius: 3px;
+}
+
 /* Luanas CSS */
