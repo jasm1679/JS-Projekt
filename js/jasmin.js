@@ -26,9 +26,6 @@
       }
     }
 
-
-
-
 // Bjælke
         const mellemRum = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
 
@@ -43,19 +40,8 @@
 
 
 
-
-
-
-
-
-
-
-    
-
-
-
-
-// Antal (Dette er ikke en del af mit tildelte stykke js, blot ekstra)
+//(Dette er ikke en del af mit tildelte stykke js, blot ekstra)
+// Antal
     function plus() {
         let value, inputObject;
       
@@ -81,3 +67,9 @@
           inputObject.value=value-1;
         }
       }
+
+//Popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}

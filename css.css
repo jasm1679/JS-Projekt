@@ -273,6 +273,80 @@
             color: white;
         }
 
+    /* Popup container */
+/* Popup container */
+.popup {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #38be3f;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 350px;
+    height: 475px;
+    background: linear-gradient(to top, white, #38be3f);
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 20px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    right: 50%;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+#tekst1 {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    width: 310px;
+    height: 150px;
+}
+
+#sort {
+    color: black;
+}
+
+#knap1 {
+    background-color: white;
+    color: #38be3f;
+    border-radius: 5px;
+    border: 1px solid #38be3f;
+    width: 310px;
+    height: 30px;
+}
+
+#taleboble {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
 /* Julies CSS */
 
 .cart{
