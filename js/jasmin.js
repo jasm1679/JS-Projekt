@@ -1,5 +1,5 @@
 // Bil
-    const scrollArea = 1300 - innerHeight;
+    const scrollArea = 1700 - innerHeight;
     let bil;
     const random = Math.floor(Math.random()*2);
 
