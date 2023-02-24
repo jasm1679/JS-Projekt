@@ -40,58 +40,34 @@
     }
 
     /* Navigation start*/
-    #navigation {
-        padding: 20px;
-        text-align: center; 
-    }
-
     .grid-1 {
         height: 85px;
-        display: grid;
-        grid-template-columns: 35% auto 15%;
+        display: flex;
+        grid-template-columns: 10% auto 10%;
         margin-left: -8px;
         margin-right: -8px;
-        background-color: blue;
+        background-color: white;
         border: 1px solid lightgray;
         border-top: 0px;
     }
-
-    @media screen and (min-width: 1300px) {
-        .grid-1 {
-            height: 85px;
-            display: grid;
-            grid-template-columns: 35% auto 10%;
-            margin-left: -8px;
-            margin-right: -8px;
-            background-color: white;
-            border: 1px solid lightgray;
-            border-top: 0px;
-        }
-      }
 
     a{
         color: black;
         text-decoration: none;
     }
 
+    .luft {
+        margin-left: 7%;
+    }
+
     .navigation ul{
         display: flex;
         list-style: none;
         flex-wrap: nowrap;
-        margin-left: -140px;
     }
 
-    @media screen and (min-width: 1300px) {
-        .navigation ul {
-            display: flex;
-            list-style: none;
-            flex-wrap: wrap;
-            margin-left: -140px;
-        }
-      }
-
     .navigation li{
-        margin-left: 30px;
+        margin-left: 20px;
         margin-top: 15px;
     }
 
@@ -274,11 +250,11 @@
         }
 
         #bil {
-            top: 1130px;
+            top: 1830px;
         }
 
         #motorcykel {
-            top: 1130px;
+            top: 1830px;
         }
 
     /*Bjælke*/
@@ -297,6 +273,103 @@
             color: white;
         }
 
+    /* Popup container */
+/* Popup container */
+.popup {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #38be3f;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 350px;
+    height: 475px;
+    background: linear-gradient(to top, white, #38be3f);
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 20px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    right: 50%;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+#tekst1 {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    width: 310px;
+    height: 150px;
+}
+
+#sort {
+    color: black;
+}
+
+#knap1 {
+    background-color: white;
+    color: #38be3f;
+    border-radius: 5px;
+    border: 1px solid #38be3f;
+    width: 310px;
+    height: 30px;
+}
+
+#taleboble {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
 /* Julies CSS */
+
+.cart{
+    position: relative;
+    display: flex; 
+    flex-direction: row;
+    justify-content: right;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.cartAmount{
+    position: absolute;
+    top: -15px;
+    right: 0px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    padding: 3px; 
+    border-radius: 3px;
+}
 
 /* Luanas CSS */

@@ -5,6 +5,7 @@
         <title>JavaScript</title>
         <link rel="stylesheet" href="css.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
         <script src="js/andrea.js" defer></script>
         <script src="js/benjamin.js" defer></script>
         <script src="js/jasmin.js" defer></script>
@@ -24,17 +25,26 @@
             </div>
         </header>
         
-        <nav class="navigation grid-1">
-            <img id=logo src="billeder/Logo.avif" alt="Logo"></a>
-            <ul>
-                <li><a href="https://hornslethshop.com/collections/hornsleth-posters">PLAKATER</a></li>
-                <li><a href="https://hornslethshop.com/collections/limited-editions">LIMITED EDITIONS</a></li>
-                <li><a href="https://hornslethshop.com/collections/original-art">ORIGINALE VÆRKER</a></li>
-                <li><a href="https://hornslethshop.com/products/customer-order">BESTILLINGSVÆRKER</a></li>
-                <li><a href="https://rebelsofwealth.com/">NFT</a></li>
-            </ul>
-            <img id=søg src="billeder/søg.png" alt="Søg"></a>
+        <nav class="grid-1">
+            <div class="luft">
+                <img id=logo src="billeder/Logo.avif" alt="Logo"></a>
+            </div>
+            <div class="navigation luft">
+                <ul>
+                    <li><a href="https://hornslethshop.com/collections/hornsleth-posters">PLAKATER</a></li>
+                    <li><a href="https://hornslethshop.com/collections/limited-editions">LIMITED EDITIONS</a></li>
+                    <li><a href="https://hornslethshop.com/collections/original-art">ORIGINALE VÆRKER</a></li>
+                    <li><a href="https://hornslethshop.com/products/customer-order">BESTILLINGSVÆRKER</a></li>
+                    <li><a href="https://rebelsofwealth.com/">NFT</a></li>
+                </ul> 
+            </div>
             <!-- Julie indkøbskurv start -->
+            <div class="luft">
+                <div class="cart">
+                    <i class="bi bi-cart4"></i>
+                    <div class="cartAmount">0</div>
+                </div>
+            </div>
             <!-- Julie indkøbskurv slut -->
         </nav>
         <main>
@@ -228,5 +238,17 @@
                 <img class="icon" src="billeder/icon.png" alt="Iconer">
             </div>
         </footer>
+        <div class="popup" onclick="myFunction()">
+            <img id="taleboble" src="billeder/Talebobel.png" alt="Talebobel">
+            <span class="popuptext" id="myPopup">
+                <h3>Chat med os</h3>
+                👋 Hej! Skriv endelig, hvis du har nogle spørgsmål angående vores produkter, levering eller andet. 
+                <br><br>
+                <input id="tekst1" placeholder="Skriv besked">
+                <br><br>
+                <p id="sort">Øjeblikkelige svar</p>
+                <button id="knap1">Spor min ordre</button>
+            </span>
+        </div>
     </body>
 </html>

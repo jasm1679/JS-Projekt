@@ -1,5 +1,5 @@
 // Bil
-    const scrollArea = 1300 - innerHeight;
+    const scrollArea = 1700 - innerHeight;
     let bil;
     const random = Math.floor(Math.random()*2);
 
@@ -19,15 +19,12 @@
     function doScroll() {
       let scrollPercent = scrollY / scrollArea;
       let newPosition = scrollPercent * innerWidth - 2200;
-      if (newPosition > 1600) {
+      if (newPosition > 1200) {
         bil.style.left = 0 + 'px';
       } else {
         bil.style.left = scrollPercent * innerWidth - 2200 + 'px';
       }
     }
-
-
-
 
 // Bjælke
         const mellemRum = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
@@ -43,19 +40,8 @@
 
 
 
-
-
-
-
-
-
-
-    
-
-
-
-
-// Antal (Dette er ikke en del af mit tildelte stykke js, blot ekstra)
+//(Dette er ikke en del af mit tildelte stykke js, blot ekstra)
+// Antal
     function plus() {
         let value, inputObject;
       
@@ -81,3 +67,9 @@
           inputObject.value=value-1;
         }
       }
+
+//Popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
