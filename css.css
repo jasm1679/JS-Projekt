@@ -1,375 +1,419 @@
 /* CSS til opsætning af hjemmesiden */
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-    }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-    .bold {
-        font-weight: 700;
-    }
+.bold {
+  font-weight: 700;
+}
 
-    .regular {
-        font-weight: 500;
-    }
+.regular {
+  font-weight: 500;
+}
 
-    #blank {
-        height: 43px;
-        width: auto;
-        margin-left: -8px;
-        margin-right: -8px;
-        background-color: white;
-        border: 1px solid lightgray;
-    }
+#blank {
+  height: 43px;
+  width: auto;
+  margin-left: -8px;
+  margin-right: -8px;
+  background-color: white;
+  border: 1px solid lightgray;
+}
 
-    #iconer {
-        float: right;
-        padding-right: 10%;
-        padding-top: 5px;
-    }
+#iconer {
+  float: right;
+  padding-right: 10%;
+  padding-top: 5px;
+}
 
-    #logo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 260px;
-        margin-top: 15px;
-    }
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 260px;
+  margin-top: 15px;
+}
 
-    #søg {
-        padding-top: 15px;
-        float: left;
-    }
+#søg {
+  padding-top: 15px;
+  float: left;
+}
 
-    /* Navigation start*/
-    .grid-1 {
-        height: 85px;
-        display: flex;
-        grid-template-columns: 10% auto 10%;
-        margin-left: -8px;
-        margin-right: -8px;
-        background-color: white;
-        border: 1px solid lightgray;
-        border-top: 0px;
-    }
+/* Navigation start*/
+.grid-1 {
+  height: 85px;
+  display: flex;
+  grid-template-columns: 10% auto 10%;
+  margin-left: -8px;
+  margin-right: -8px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-top: 0px;
+}
 
-    a{
-        color: black;
-        text-decoration: none;
-    }
+a {
+  color: black;
+  text-decoration: none;
+}
 
-    .luft {
-        margin-left: 7%;
-    }
+.luft {
+  margin-left: 7%;
+}
 
-    .navigation ul{
-        display: flex;
-        list-style: none;
-        flex-wrap: nowrap;
-    }
+.navigation ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: nowrap;
+}
 
-    .navigation li{
-        margin-left: 20px;
-        margin-top: 15px;
-    }
+.navigation li {
+  margin-left: 20px;
+  margin-top: 15px;
+}
 
-    /* Navigation slut*/
+/* Navigation slut*/
 
-    .grid-2 {
-        display: grid;
-        grid-template-columns: 100%;
-        margin-left: -8px;
-        margin-right: -8px;
-        background-color: white;
-        text-align: center;
-        padding: 50px;
-    }
+.grid-2 {
+  display: grid;
+  grid-template-columns: 100%;
+  margin-left: -8px;
+  margin-right: -8px;
+  background-color: white;
+  text-align: center;
+  padding: 50px;
+}
 
-    .grid-3 {
-        display: grid;
-        grid-template-columns: auto 50px auto 50px auto;
-        background-color: white;
-        scale: 80%;
-    }
+.grid-3 {
+  display: grid;
+  grid-template-columns: auto 50px auto 50px auto;
+  background-color: white;
+  scale: 80%;
+}
 
-    .grid-4 {
-        display: grid;
-        grid-template-columns: 60% 40%;
-        background-color: white;
-    }
+.grid-4 {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  background-color: white;
+}
 
+.grid-5 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-left: -8px;
+  margin-right: -8px;
+  background-color: #f7f6f1;
+  text-align: left;
+  padding-left: 30px;
+}
 
-    .grid-5 {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        margin-left: -8px;
-        margin-right: -8px;
-        background-color: #f7f6f1;
-        text-align: left;
-        padding-left: 30px;
-    }
+#nyhedsbrev {
+  height: 50px;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
 
-    #nyhedsbrev {
-        height: 50px;
-        width: 400px;
-        border-radius: 5px;
-        border: 1px solid lightgray;
-    }
+.ned {
+  margin-top: 80px;
+}
 
-    .ned {
-        margin-top: 80px;
-    }
+.grøn {
+  background-color: #38be3f;
+  color: white;
+  height: 50px;
+  width: 90px;
+  border-radius: 5px;
+  border-width: 0;
+}
 
-    .grøn {
-        background-color: #38be3f;
-        color: white;
-        height: 50px;
-        width: 90px;
-        border-radius: 5px;
-        border-width: 0;
-    }
+.move {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  margin-top: -40px;
+}
 
-    .move {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 35%;
-        margin-top: -40px;
-    }
+.storknapgrøn {
+  background-color: #38be3f;
+  color: white;
+  height: 50px;
+  width: 450px;
+  border-radius: 5px;
+  border-width: 0;
+}
 
-    .storknapgrøn {
-        background-color: #38be3f;
-        color: white;
-        height: 50px;
-        width: 450px;
-        border-radius: 5px;
-        border-width: 0;
-    }
+.storknaphvid {
+  background-color: white;
+  color: #38be3f;
+  height: 50px;
+  width: 450px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #38be3f;
+}
 
-    .storknaphvid {
-        background-color: white;
-        color: #38be3f;
-        height: 50px;
-        width: 450px;
-        border-radius: 5px;
-        border-width: 1px;
-        border-color: #38be3f;
-    }
+#antal {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: lightgray;
+  padding-left: 45px;
+  background-color: transparent;
+}
 
-    #antal {
-        height: 50px;
-        width: 50px;
-        border-radius: 5px;
-        border-width: 1px;
-        border-color: lightgray;
-        padding-left: 45px;
-        background-color: transparent;
-    }
+.knap {
+  background-color: transparent;
+  height: 50px;
+  border-color: white;
+  border-style: none;
+  font-size: 30px;
+}
 
-    .knap {
-        background-color: transparent;
-        height: 50px;
-        border-color: white;
-        border-style: none;
-        font-size: 30px;
-    }
+.grid-6 {
+  display: grid;
+  grid-template-columns: 33% 33% auto;
+  margin-left: -8px;
+  margin-right: -8px;
+  background-color: #f7f6f1;
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 40px;
+  height: 335px;
+}
 
-    .grid-6 {
-        display: grid;
-        grid-template-columns: 33% 33% auto;
-        margin-left: -8px;
-        margin-right: -8px;
-        background-color: #f7f6f1;
-        text-align: left;
-        padding-left: 10%;
-        padding-top: 40px;
-        height: 335px;
-    }
+.grid-7 {
+  display: grid;
+  grid-template-columns: 50% auto;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -8px;
+  background-color: #f7f6f1;
+  text-align: left;
+  padding-left: 30px;
+  height: 70px;
+}
 
-    .grid-7 {
-        display: grid;
-        grid-template-columns: 50% auto;
-        margin-left: -8px;
-        margin-right: -8px;
-        margin-bottom: -8px;
-        background-color: #f7f6f1;
-        text-align: left;
-        padding-left: 30px;
-        height: 70px;  
-    }
+.icon {
+  margin-left: auto;
+  padding-right: 150px;
+}
 
-    .icon {
-        margin-left: auto;
-        padding-right: 150px;
-    }
+.linje {
+  margin-right: auto;
+  padding-left: 150px;
+}
 
-    .linje {
-        margin-right: auto;
-        padding-left: 150px;
-    }
+#linjen {
+  text-align: center;
+  color: lightgray;
+  background-color: #f7f6f1;
+}
 
-    #linjen {
-        text-align: center;
-        color: lightgray;
-        background-color: #f7f6f1;
-    }
-
-    footer {
-        background-color: #f7f6f1;
-        margin: -8px;
-    }
-
+footer {
+  background-color: #f7f6f1;
+  margin: -8px;
+}
 
 /* Andreas CSS */
+.dropbutton {
+  background-color: white;
+  color: black;
+  padding: 0.75rem 1rem;
+  font-size: 16px;
+  border: 1px solid grey;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  width: 300px;
+  text-align: start;
+}
+
+.dropbutton:hover {
+  border: 1px solid black;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+}
+
+.dropdown-content option {
+  color: black;
+  display: block;
+}
+
+.dropdown-content option:hover {
+  background-color: #2980b9;
+  color: white;
+}
+
+.visual {
+  display: block;
+}
 
 /* Benjamins CSS */
 .slideimages {
-    width: 100%;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 25px;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 .buttons {
-    text-align: center;
+  text-align: center;
 }
 
-
 /* Jasmins CSS */
-    /*Bil*/   
-        .container {
-            height: 150px;
-            background-color: #f7f6f1;
-            margin: -8px;
-            margin-top: 30px;
-        }
+/*Bil*/
+.container {
+  height: 150px;
+  background-color: #f7f6f1;
+  margin: -8px;
+  margin-top: 30px;
+}
 
-        .brum {
-            position: absolute;
-            left: -1300px;
-            visibility: hidden;
-            z-index: 1;
-        }
+.brum {
+  position: absolute;
+  left: -1300px;
+  visibility: hidden;
+  z-index: 1;
+}
 
-        #bil {
-            top: 1830px;
-        }
+#bil {
+  top: 1830px;
+}
 
-        #motorcykel {
-            top: 1830px;
-        }
+#motorcykel {
+  top: 1830px;
+}
 
-    /*Bjælke*/
-        .kasse {
-            height: 45px;
-            width: auto;
-            margin-left: -8px;
-            margin-right: -8px;
-            margin-top: -8px;
-            background-color: black;
-        }
+/*Bjælke*/
+.kasse {
+  height: 45px;
+  width: auto;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -8px;
+  background-color: black;
+}
 
-        #out {
-            text-align: center;
-            padding-top: 10px;
-            color: white;
-        }
+#out {
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+}
 
-    /* Popup container */
+/* Popup container */
 /* Popup container */
 .popup {
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-    display: inline-block;
-    cursor: pointer;
-    background-color: #38be3f;
-    height: 70px;
-    width: 70px;
-    border-radius: 100%;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #38be3f;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 350px;
+  height: 475px;
+  background: linear-gradient(to top, white, #38be3f);
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px 20px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  right: 50%;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-  
-  /* The actual popup (appears on top) */
-  .popup .popuptext {
-    visibility: hidden;
-    width: 350px;
-    height: 475px;
-    background: linear-gradient(to top, white, #38be3f);
-    color: #fff;
-    text-align: center;
-    border-radius: 10px;
-    padding: 20px 20px;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    right: 50%;
+  to {
+    opacity: 1;
   }
-  
-  /* Toggle this class when clicking on the popup container (hide and show the popup) */
-  .popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-  
-  /* Add animation (fade in the popup) */
-  @-webkit-keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
+  to {
+    opacity: 1;
   }
-  
-  @keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
-  }
+}
 
 #tekst1 {
-    background-color: white;
-    border-radius: 5px;
-    border: 1px solid lightgray;
-    width: 310px;
-    height: 150px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  width: 310px;
+  height: 150px;
 }
 
 #sort {
-    color: black;
+  color: black;
 }
 
 #knap1 {
-    background-color: white;
-    color: #38be3f;
-    border-radius: 5px;
-    border: 1px solid #38be3f;
-    width: 310px;
-    height: 30px;
+  background-color: white;
+  color: #38be3f;
+  border-radius: 5px;
+  border: 1px solid #38be3f;
+  width: 310px;
+  height: 30px;
 }
 
 #taleboble {
-    margin-left: 15px;
-    margin-top: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
 }
 
 /* Julies CSS */
 
-.cart{
-    position: relative;
-    display: flex; 
-    flex-direction: row;
-    justify-content: right;
-    background-color: black;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    padding: 10px;
-    border-radius: 4px;
+.cart {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 4px;
 }
 
-.cartAmount{
-    position: absolute;
-    top: -15px;
-    right: 0px;
-    font-size: 16px;
-    background-color: red;
-    color: white;
-    padding: 3px; 
-    border-radius: 3px;
+.cartAmount {
+  position: absolute;
+  top: -15px;
+  right: 0px;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  padding: 3px;
+  border-radius: 3px;
 }
 
 /* Luanas CSS */
