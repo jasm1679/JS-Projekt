@@ -69,7 +69,7 @@
       }
 
 //Popup
-function myFunction() {
+function myPop() {
   var popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
 }
