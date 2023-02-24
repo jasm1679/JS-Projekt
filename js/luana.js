@@ -1,8 +1,8 @@
-<script>
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
+// Frem/tilbage controls
 function plusSlides(n) {
 showSlides(slideIndex += n);
 }
@@ -26,4 +26,3 @@ dots[i].className = dots[i].className.replace(" active", "");
 }
 slides[slideIndex-1].style.display = "block";
 dots[slideIndex-1].className += " active";
-</script>
