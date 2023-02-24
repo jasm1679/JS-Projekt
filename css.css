@@ -431,10 +431,6 @@ footer {
   display: none;
 }
 
-.mySlides {
-    display: none;
-}
-
 /* Frem & tilbage knapper */
 .prev, .next {
   cursor: pointer;
