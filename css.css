@@ -227,13 +227,11 @@ footer {
   border-radius: 0.5rem;
   width: 300px;
 }
-
-#dropbutton:hover {
   border: 1px solid black;
   background-color: #2980b9;
-  color: white;
+.regular_a {
+  font-weight: 500;
 }
-
 /* Benjamins CSS */
 .slideimages {
   width: 100%;
