@@ -42,10 +42,11 @@
 
 //(Dette er ikke en del af mit tildelte stykke js, blot ekstra)
 // Antal
+/* Slettet fordi ellers driller Julies del
     function plus() {
         let value, inputObject;
       
-        inputObject = document.getElementById("antalle");
+        inputObject = document.getElementById("antal");
         value=parseInt(inputObject.value);
         if (isNaN(value)) {
           inputObject.value=1;
@@ -57,7 +58,7 @@
       function minus() {
         let value, inputObject;
       
-        inputObject = document.getElementById("antalle");
+        inputObject = document.getElementById("antal");
         value=parseInt(inputObject.value);
         if (isNaN(value)){
           inputObject.value=1;
@@ -67,6 +68,7 @@
           inputObject.value=value-1;
         }
       }
+*/
 
 //Popup
 function myPop() {

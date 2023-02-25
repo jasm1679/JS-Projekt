@@ -6,31 +6,31 @@ const antal = document.getElementById("antal");
 
 let count = 0;
 
-antal.innerHTML = count;
+antal.value = count;
 
 //incress
 const handleIncrement = () => {
     count ++;
-    antal.innerHTML = count;
+    antal.value = count;
 };
 
 //decress
 const handleDecrement = () => {
     count-- ;
-    antal.innerHTML = count;
+    antal.value = count;
 }
 
 //button
 const incrementCount = document.getElementById("increment-count");
 const decrementCount = document.getElementById("decrement-count");
 
-incrementCount.addEventListner("click", handleIncrement);
-decrementCount.addEventListner("click", handleDecrement);
+//incrementCount.addEventListner("click", handleIncrement);
+//decrementCount.addEventListner("click", handleDecrement);
 
 const numbers = ["one", "five", "ten", "twenty", "fifty", "onehundred"];
 
-for (i = 0; i < x.length; i++) {
-    x[i].onclick = function() {
+for (i = 0; i < numbers.length; i++) {
+    numbers[i].onclick = function() {
     if(antal > 0) {
         incrementCount == "bi bi-cart4" ;
     }
