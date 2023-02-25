@@ -1,12 +1,12 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
+// frem/tilbage kontrol
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
+// Billederne som skal dukke op en efter en
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
