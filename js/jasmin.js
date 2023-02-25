@@ -45,7 +45,7 @@
     function plus() {
         let value, inputObject;
       
-        inputObject = document.getElementById("antal");
+        inputObject = document.getElementById("antalle");
         value=parseInt(inputObject.value);
         if (isNaN(value)) {
           inputObject.value=1;
@@ -57,7 +57,7 @@
       function minus() {
         let value, inputObject;
       
-        inputObject = document.getElementById("antal");
+        inputObject = document.getElementById("antalle");
         value=parseInt(inputObject.value);
         if (isNaN(value)){
           inputObject.value=1;
