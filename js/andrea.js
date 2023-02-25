@@ -1,8 +1,8 @@
 function getOption() {
-  selectElement = document.querySelector("#button");
+  selectElement = document.querySelector("#button_a");
   output = selectElement.value;
 }
-const selected = document.querySelector("#button");
+const selected = document.querySelector("#button_a");
 const price = document.querySelector(".regular_a");
 
 selected.addEventListener("change", selection);
