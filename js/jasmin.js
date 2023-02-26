@@ -1,15 +1,15 @@
 // Bil
     const scrollArea = 1700 - innerHeight;
-    let bil;
+    let koretoj;
     const random = Math.floor(Math.random()*2);
 
   // if else
     if (random == 0){
       document.getElementById("bil").style.visibility = "visible";
-      bil = document.getElementById("bil");
+      koretoj = document.getElementById("bil");
     } else {
       document.getElementById("motorcykel").style.visibility = "visible";
-      bil = document.getElementById("motorcykel");
+      koretoj = document.getElementById("motorcykel");
     }
 
   // Event
@@ -20,9 +20,9 @@
       let scrollPercent = scrollY / scrollArea;
       let newPosition = scrollPercent * innerWidth - 2200;
       if (newPosition > 1200) {
-        bil.style.left = 0 + 'px';
+        koretoj.style.left = 0 + 'px';
       } else {
-        bil.style.left = scrollPercent * innerWidth - 2200 + 'px';
+        koretoj.style.left = scrollPercent * innerWidth - 2200 + 'px';
       }
     }
 
